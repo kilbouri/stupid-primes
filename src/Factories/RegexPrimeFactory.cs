@@ -2,6 +2,10 @@ using System.Text.RegularExpressions;
 
 namespace StupidPrimes.Factories;
 
+/// <summary>
+/// Uses a regex to determine if the length of a string is prime or not.
+/// https://www.youtube.com/watch?v=5vbk0TwkokM    
+/// </summary>
 public partial class RegexPrimeFactory(int start = 0, int end = int.MaxValue)
     : PrimeFactory(start, end)
 {
